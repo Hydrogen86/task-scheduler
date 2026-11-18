@@ -20,6 +20,15 @@
 
 
     /* Colors Pallete */
+    --main-color: #ffffff;
+    --polar-night: linear-gradient(to right, #2C3E50, #4CA1AF);
+    --rose-quartz: linear-gradient(to right, #BA5370, #F4E2D8);
+
+    /* text-color */
+    --text-color: #171717;       /* Primary text - near black */
+    --text-muted: #525252;       /* Secondary text */
+    --text-light: #737373;       /* Subtle text */
+    --text-white: #FFFFFF;       /* White text */
 }
 
 * {
@@ -31,6 +40,13 @@
 
 h1 {
     font-family: var(--heading-font);
+    font-size: var(--xxl-font);
+    /* font-weight: bolder;
+    background: var(--polar-night);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block; */
 }
 
 html {
